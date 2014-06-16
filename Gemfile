@@ -27,6 +27,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem "resque", "~> 2.0.0.pre.1", github: "resque/resque"
 gem 'mysql2'
+gem 'sunspot_rails'
+gem 'sunspot_solr', group: :development
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
